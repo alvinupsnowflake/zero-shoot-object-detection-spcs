@@ -1,0 +1,21 @@
+spec:
+  container:
+  - name: object-detection-spcs
+    image: [YOUR IMAGE LOCATION IN SNOWFLAKE]
+    resources:
+      requests:
+        nvidia.com/gpu: [Range From 1-4]
+      limits:
+        nvidia.com/gpu: [Range From 1-4]
+    volumeMounts:
+      - name: llm-models
+        mountPath: /[YOUR STORAGE LOCATION IN SNOWFLAKE]
+  endpoint:
+  - name: api
+    port: 9000
+    public: true
+  volume:
+  - name: llm-models
+    source: "[YOUR STORAGE LOCATION IN SNOWFLAKE]"
+    uid: 1000
+    gid: 1000
