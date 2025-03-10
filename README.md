@@ -1,8 +1,12 @@
+## Overview
+
 Imagine you need to analyze customer behavior based on their interactions with your campaign, but you have 1,000 unlabeled images. On a local CPU, it could take over 2 hours to label them all. But with GPU power in Snowflake, you can get it done in under 2 minutes❗
 
 So, what did I do? I built a Zero-Shot Object Detection app.
 
 This app leverages 𝗦𝘁𝗿𝗲𝗮𝗺𝗹𝗶𝘁'𝘀 built-in features (at no additional cost to create your awesome app) and Python as the backbone of the development. Python’s flexibility and powerful libraries made it incredibly easy to build this solution quickly and efficiently (Alhamdulillah it's using 𝗣𝘆𝘁𝗵𝗼𝗻 😭 ).
+
+## How It Works
 
 Here’s a breakdown of the process:
 
@@ -31,3 +35,7 @@ By streamlining image labeling, this app can save hours of work and provide conf
 4. And boosting warehouse efficiency with real-time inventory tracking. 
 
 Ready to accelerate your image detection tasks? Reach out to learn how Snowflake's GPU-enabled solutions can supercharge your business!
+
+## How To Set It Up
+
+_Coming Soon!_
