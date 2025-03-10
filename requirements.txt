@@ -1,0 +1,6 @@
+pillow
+requests
+transformers
+fastapi
+gunicorn
+uvicorn
